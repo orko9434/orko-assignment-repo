@@ -1,0 +1,94 @@
+.program {
+    font-family: Arial, sans-serif;
+    margin: 10PX;
+    padding: 0px;
+    background-color: #f9f9f9;
+
+}
+
+.programmer{
+    text-align: center;
+    padding: 50px 20px;
+    justify-content: center;
+
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.card-program {
+    display:flexbox;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 7000px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.program:hover {
+    transform: translateY(-10px);
+}
+
+.program {
+    padding: 20px;
+    text-align: center;
+}
+
+.program img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.program h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.program p {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.program a.learn-more {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #9daabb;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.program a.learn-more:hover {
+    background-color: #0056b3;
+}
+
+/* Specific styles for each card type */
+.card.reactjs {
+    background-color: #e9f7ff;
+}
+
+.card.nodejs {
+    background-color: #e9ffe9;
+}
+
+.card.mongodb {
+    background-color: #f7ffe9;
+}

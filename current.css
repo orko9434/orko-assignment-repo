@@ -1,0 +1,89 @@
+.my {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.mycurrent {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.card-mycurrent {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 250px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-current {
+    padding: 20px;
+    text-align: center;
+}
+
+.card img {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.card a.learn-more {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007BFF;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.card a.learn-more:hover {
+    background-color: #0056b3;
+}
+
+/* Specific styles for each card type */
+.card.html {
+    background-color: #ffe9e9;
+}
+
+.card.css {
+    background-color: #e9f0ff;
+}
+
+.card.js {
+    background-color: #fff5e9;
+}

@@ -1,0 +1,58 @@
+.maint{
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+p {
+    text-align: center;
+    color: #777;
+}
+
+.coding {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.coding img {
+    width: 300px;
+    height: auto;
+}
+
+.coding h2 {
+    margin: 20px 0 10px;
+    font-size: 30px;
+}
+
+.coding p {
+    color: #777;
+}
+
+.coding button {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.coding button:hover {
+    background: #555;
+}

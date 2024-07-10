@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+
+h1 {
+    margin: 0;
+}
+
+.download-button {
+    padding: 10px 20px;
+    background-color: rgb(255, 251, 251);
+    color: #0D1321;
+    text-decoration: none;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.main-content {
+    background: url(./assets/Hero-bg.png);
+    width:auto ;
+    height: auto;
+    padding: 20px;
+}
+
+.developer-img {
+    width: 300px;
+    height: auto;
+}
+
+h2 {
+    font-size: 50px;
+    color: #333;
+}
+
+p {
+    color: #666;
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.contact-button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
